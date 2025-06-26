@@ -1,0 +1,10 @@
+version: '3.9'
+
+name: 'trieletric-mongo'
+
+services:
+  mongoDb : 
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
