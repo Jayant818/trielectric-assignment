@@ -33,3 +33,10 @@ npm run dev
 ```
 
 The project will be available at `http://localhost:3000`
+
+## Approach Followed
+- Polling From frontend every 10 seconds
+- Initial Device Support - 10k Concurrent Requests,
+- To Increase Concurrent Requests - 
+  - Use Node.js Cluster
+  - Increase the number of EC2 Instances
